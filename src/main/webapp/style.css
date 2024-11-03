@@ -1,0 +1,192 @@
+/* General body styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #333;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* Form styling */
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+    color: #444;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="url"],
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #000;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #333;
+}
+
+.form-container select[multiple] {
+    height: auto;
+    padding: 15px;
+}
+
+/* Table styling for the outfit list page */
+table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: left;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+table tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Center-align the page title */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 40px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+}
+
+.button-69 {
+    background-color: black;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 60px;
+    margin-left: -4px;
+    outline: 0;
+    text-align: center;
+    transition: all .3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    width: 190px;
+}
+
+.button-69:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 1000px) {
+    .button-69 {
+        font-size: 14px;
+        height: 55px;
+        line-height: 55px;
+        width: 150px;
+    }
+}
+
+/* Hide the file input */
+#imageUpload {
+    display: none;
+}
+
+/* Preview image styling */
+#imagePreview {
+    display: none;
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
